@@ -1,0 +1,24 @@
+2015/01/02 04:54:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usergroups".' in F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('usergroups')
+#1 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Programs\XAMPP\htdocs\newYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newYii/usergroups
+---
+2015/01/02 04:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usergroups".' in F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('usergroups')
+#1 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Programs\XAMPP\htdocs\newYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newYii/usergroups
+---
+2015/01/02 04:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserGroups".' in F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('UserGroups')
+#1 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Programs\XAMPP\htdocs\newYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newYii/UserGroups
+---
