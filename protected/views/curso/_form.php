@@ -28,10 +28,6 @@
 		<?php echo $form->textField($model, 'codigo_estruturado', array('maxlength' => 45)); ?>
 		<?php echo $form->error($model,'codigo_estruturado'); ?>
 		</div><!-- row -->
-
-		<label><?php echo GxHtml::encode($model->getRelationLabel('ppcs')); ?></label>
-		<?php echo $form->checkBoxList($model, 'ppcs', GxHtml::encodeEx(GxHtml::listDataEx(Ppc::model()->findAllAttributes(null, true)), false, true)); ?>
-
 <?php
 echo GxHtml::submitButton(Yii::t('app', 'Save'));
 $this->endWidget();
