@@ -25,7 +25,7 @@ abstract class BaseSituacaoCurriculo extends GxActiveRecord {
 	}
 
 	public static function label($n = 1) {
-		return Yii::t('app', 'SituacaoCurriculo|SituacaoCurriculos', $n);
+		return Yii::t('app', 'Situação do Currículo|Situação dos Currículos', $n);
 	}
 
 	public static function representingColumn() {
@@ -54,7 +54,7 @@ abstract class BaseSituacaoCurriculo extends GxActiveRecord {
 	public function attributeLabels() {
 		return array(
 			'id' => Yii::t('app', 'ID'),
-			'descricao' => Yii::t('app', 'Descricao'),
+			'descricao' => Yii::t('app', 'Descrição'),
 			'ppcHasTipoDisciplinaHasDisciplinas' => null,
 		);
 	}

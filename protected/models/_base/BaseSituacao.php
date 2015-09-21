@@ -25,7 +25,7 @@ abstract class BaseSituacao extends GxActiveRecord {
 	}
 
 	public static function label($n = 1) {
-		return Yii::t('app', 'Situacao|Situacaos', $n);
+		return Yii::t('app', 'Situação|Situações', $n);
 	}
 
 	public static function representingColumn() {
@@ -54,7 +54,7 @@ abstract class BaseSituacao extends GxActiveRecord {
 	public function attributeLabels() {
 		return array(
 			'id' => Yii::t('app', 'ID'),
-			'descricao' => Yii::t('app', 'Descricao'),
+			'descricao' => Yii::t('app', 'Descrição'),
 			'ppcs' => null,
 		);
 	}

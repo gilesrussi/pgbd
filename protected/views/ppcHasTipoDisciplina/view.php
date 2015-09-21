@@ -39,7 +39,7 @@ array(
 	echo GxHtml::openTag('ul');
 	foreach($model->ppcHasTipoDisciplinaHasDisciplinas as $relatedModel) {
 		echo GxHtml::openTag('li');
-		echo GxHtml::link(GxHtml::encode(GxHtml::valueEx($relatedModel)), array('ppcHasTipoDisciplinaHasDisciplina/view', 'id' => GxActiveRecord::extractPkValue($relatedModel, true)));
+		echo GxHtml::link(GxHtml::encode($relatedModel->disciplina . ' - ' . $relatedModel->disciplina->nome), array('ppcHasTipoDisciplinaHasDisciplina/view', 'id' => GxActiveRecord::extractPkValue($relatedModel, true)));
 		echo GxHtml::closeTag('li');
 	}
 	echo GxHtml::closeTag('ul');

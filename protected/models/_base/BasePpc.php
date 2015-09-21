@@ -31,7 +31,7 @@ abstract class BasePpc extends GxActiveRecord {
 	}
 
 	public static function label($n = 1) {
-		return Yii::t('app', 'Ppc|Ppcs', $n);
+		return Yii::t('app', 'PPC|PPCs', $n);
 	}
 
 	public static function representingColumn() {
@@ -66,9 +66,9 @@ abstract class BasePpc extends GxActiveRecord {
 			'id' => Yii::t('app', 'ID'),
 			'curso_id' => null,
 			'situacao_id' => null,
-			'numero' => Yii::t('app', 'Numero'),
-			'carga_horaria_total_curso' => Yii::t('app', 'Carga Horaria Total Curso'),
-			'credito_total' => Yii::t('app', 'Credito Total'),
+			'numero' => Yii::t('app', 'Número'),
+			'carga_horaria_total_curso' => Yii::t('app', 'Carga Horária Total do Curso'),
+			'credito_total' => Yii::t('app', 'Crédito Total'),
 			'curso' => null,
 			'situacao' => null,
 			'ppcHasTipoDisciplinas' => null,

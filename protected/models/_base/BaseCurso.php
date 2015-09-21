@@ -56,9 +56,9 @@ abstract class BaseCurso extends GxActiveRecord {
 	public function attributeLabels() {
 		return array(
 			'id' => Yii::t('app', 'ID'),
-			'codigo' => Yii::t('app', 'Codigo'),
+			'codigo' => Yii::t('app', 'Código'),
 			'nome' => Yii::t('app', 'Nome'),
-			'codigo_estruturado' => Yii::t('app', 'Codigo Estruturado'),
+			'codigo_estruturado' => Yii::t('app', 'Código Estruturado'),
 			'ppcs' => null,
 		);
 	}

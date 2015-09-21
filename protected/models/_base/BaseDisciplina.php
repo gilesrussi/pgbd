@@ -60,9 +60,9 @@ abstract class BaseDisciplina extends GxActiveRecord {
 	public function attributeLabels() {
 		return array(
 			'id' => Yii::t('app', 'ID'),
-			'codigo' => Yii::t('app', 'Codigo'),
+			'codigo' => Yii::t('app', 'Código'),
 			'nome' => Yii::t('app', 'Nome'),
-			'carga_horaria_total' => Yii::t('app', 'Carga Horaria Total'),
+			'carga_horaria_total' => Yii::t('app', 'Carga Horária Total'),
 			'ppcHasTipoDisciplinaHasDisciplinas' => null,
 			'tipoAulaHasDisciplinas' => null,
 		);
