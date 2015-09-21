@@ -26,16 +26,18 @@
         <?php echo $form->error($model, 'nome'); ?>
     </div>
     <!-- row -->
-    <div class="row">
-        <?php echo $form->labelEx($model, 'carga_horaria_total'); ?>
-        <?php echo $form->textField($model, 'carga_horaria_total'); ?>
-        <?php echo $form->error($model, 'carga_horaria_total'); ?>
-    </div>
+    
+    <?php
+    $tipo_aula = TipoAula::model()->findAll();
+    foreach($tipo_aula as $tipo){
+        echo "<div class='row'>";
+        echo CHtml::label("Carga Horária " . $tipo->descricao, true);
+        $temp = TipoAulaHasDisciplina::model()->findByAttributes(array('disciplina_id' => $model->id, 'tipo_aula_id' => $tipo->id));
+        echo CHtml::textField("Disciplina[tipo_aula][$tipo->id]", isset($temp) ? $temp->carga_horaria : '0');
+        echo "</div>";
+    }
+    ?>
     <!-- row -->
-
-    <div>
-        <?php echo '';?>
-    </div>
     <label><?php //echo GxHtml::encode($model->getRelationLabel('ppcHasTipoDisciplinaHasDisciplinas')); ?></label>
     <?php //echo $form->checkBoxList($model, 'ppcHasTipoDisciplinaHasDisciplinas', GxHtml::encodeEx(GxHtml::listDataEx(PpcHasTipoDisciplinaHasDisciplina::model()->findAllAttributes(null, true)), false, true)); ?>
     <label><?php //echo GxHtml::encode($model->getRelationLabel('tipoAulaHasDisciplinas')); ?></label>

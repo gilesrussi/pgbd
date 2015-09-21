@@ -14,31 +14,54 @@ class DisciplinaController extends GxController
     public function actionCreate()
     {
         $model = new Disciplina;
-
-
         if (isset($_POST['Disciplina'])) {
+            $related = $_POST['Disciplina']['tipo_aula'];
+            
+            
             $model->setAttributes($_POST['Disciplina']);
-
             if ($model->save()) {
+                foreach($related as $key => $value) {
+                    if(intval($value) != 0) {
+                        $relatedModel = new TipoAulaHasDisciplina;
+                        $relatedModel->tipo_aula_id = $key;
+                        $relatedModel->disciplina_id = $model->id;
+                        $relatedModel->carga_horaria = $value;
+                        $relatedModel->save();
+                    }
+                }
                 if (Yii::app()->getRequest()->getIsAjaxRequest())
                     Yii::app()->end();
                 else
                     $this->redirect(array('view', 'id' => $model->id));
             }
         }
-
         $this->render('create', array('model' => $model));
     }
 
     public function actionUpdate($id)
     {
         $model = $this->loadModel($id, 'Disciplina');
-
+        
 
         if (isset($_POST['Disciplina'])) {
+            $related = $_POST['Disciplina']['tipo_aula'];
             $model->setAttributes($_POST['Disciplina']);
 
             if ($model->save()) {
+                foreach($related as $key => $value) {
+                    if(intval($value) != 0) {
+                        $relatedModel = TipoAulaHasDisciplina::model()->findByAttributes(array('disciplina_id' => $model->id, 'tipo_aula_id' => $key));
+                        if(!$relatedModel) {
+                            $relatedModel = new TipoAulaHasDisciplina;
+                            $relatedModel->tipo_aula_id = $key;
+                            $relatedModel->disciplina_id = $model->id;
+                        }
+                        $relatedModel->carga_horaria = $value;
+                        $relatedModel->save();
+                    } else {
+                        TipoAulaHasDisciplina::model()->findByAttributes(array('disciplina_id' => $model->id, 'tipo_aula_id' => $key))->delete();
+                    }
+                }
                 $this->redirect(array('view', 'id' => $model->id));
             }
         }

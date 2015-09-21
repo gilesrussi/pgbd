@@ -23,15 +23,22 @@
 		<?php echo $form->error($model,'numero'); ?>
 		</div><!-- row -->
 		<div class="row">
-		<?php echo $form->labelEx($model,'carga_horaria_total_curso'); ?>
-		<?php echo $form->textField($model, 'carga_horaria_total_curso'); ?>
-		<?php echo $form->error($model,'carga_horaria_total_curso'); ?>
-		</div><!-- row -->
-		<div class="row">
 		<?php echo $form->labelEx($model,'credito_total'); ?>
 		<?php echo $form->textField($model, 'credito_total'); ?>
 		<?php echo $form->error($model,'credito_total'); ?>
 		</div><!-- row -->
+                
+                <?php
+                $tipo_disciplina = TipoDisciplina::model()->findAll();
+                foreach($tipo_disciplina as $tipo){
+                    echo "<div class='row'>";
+                    echo CHtml::label("Carga Horária " . $tipo->descricao, true);
+                    $temp = PpcHasTipoDisciplina::model()->findByAttributes(array('ppc_id' => $model->id, 'tipo_disciplina_id' => $tipo->id));
+                    echo CHtml::textField("Disciplina[tipo_aula][$tipo->id]", isset($temp) ? $temp->carga_horaria_total_tipo_disciplina : '0');
+                    echo "</div>";
+                }
+                ?>
+                
 <?php
 echo GxHtml::submitButton(Yii::t('app', 'Save'));
 $this->endWidget();

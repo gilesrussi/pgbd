@@ -29,11 +29,11 @@ abstract class BasePpcHasTipoDisciplina extends GxActiveRecord {
 	}
 
 	public static function label($n = 1) {
-		return Yii::t('app', 'PpcHasTipoDisciplina|PpcHasTipoDisciplinas', $n);
+		return Yii::t('app', 'Carga Horária do Tipo|Carga Horária dos Tipos', $n);
 	}
 
 	public static function representingColumn() {
-		return 'id';
+		return 'tipoDisciplina';
 	}
 
 	public function rules() {

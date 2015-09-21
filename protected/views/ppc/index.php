@@ -6,7 +6,7 @@ $this->breadcrumbs = array(
 );
 
 $this->menu = array(
-	array('label'=>Yii::t('app', 'Create') . ' ' . Ppc::label(), 'url' => array('create')),
+	
 	array('label'=>Yii::t('app', 'Manage') . ' ' . Ppc::label(2), 'url' => array('admin')),
 );
 ?>

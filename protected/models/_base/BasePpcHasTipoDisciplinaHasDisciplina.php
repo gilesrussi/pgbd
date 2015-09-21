@@ -31,11 +31,11 @@ abstract class BasePpcHasTipoDisciplinaHasDisciplina extends GxActiveRecord {
 	}
 
 	public static function label($n = 1) {
-		return Yii::t('app', 'PpcHasTipoDisciplinaHasDisciplina|PpcHasTipoDisciplinaHasDisciplinas', $n);
+		return Yii::t('app', 'Disciplina do PPC por Tipo|Disciplinas do PPC por Tipo', $n);
 	}
 
 	public static function representingColumn() {
-		return 'id';
+		return 'disciplina';
 	}
 
 	public function rules() {
