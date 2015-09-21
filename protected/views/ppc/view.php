@@ -19,20 +19,15 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data' => $model,
 	'attributes' => array(
-'id',
-array(
+		array(
 			'name' => 'curso',
 			'type' => 'raw',
 			'value' => $model->curso !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->curso)), array('curso/view', 'id' => GxActiveRecord::extractPkValue($model->curso, true))) : null,
-			),
-array(
-			'name' => 'situacao',
-			'type' => 'raw',
-			'value' => $model->situacao !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->situacao)), array('situacao/view', 'id' => GxActiveRecord::extractPkValue($model->situacao, true))) : null,
-			),
-'numero',
-'carga_horaria_total_curso',
-'credito_total',
+		),
+		'situacao',
+		'numero',
+		'carga_horaria_total_curso',
+		'credito_total',
 	),
 )); ?>
 

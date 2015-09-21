@@ -1,8 +1,9 @@
 <?php
 
 $this->breadcrumbs = array(
-	$model->label(2) => array('index'),
-	Yii::t('app', 'Create'),
+	Curso::label(2) => array('/curso/'),
+	$cursoModel->nome => array('/curso/view/', 'id' => $cursoModel->id),
+	Yii::t('app', 'Add') . ' ' . Ppc::label(1),
 );
 
 $this->menu = array(
@@ -11,7 +12,7 @@ $this->menu = array(
 );
 ?>
 
-<h1><?php echo Yii::t('app', 'Create') . ' ' . GxHtml::encode($model->label()); ?></h1>
+<h1><?php echo Yii::t('app', 'Add') . ' ' . GxHtml::encode($model->label()) . ' ' . Yii::t('app', 'to') . ' ' . $cursoModel ?></h1>
 
 <?php
 $this->renderPartial('_form', array(

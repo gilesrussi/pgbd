@@ -7,7 +7,7 @@
 Yii::setPathOfAlias('booster', dirname(__FILE__) . DIRECTORY_SEPARATOR . '../extensions/yiibooster');
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-    'name' => 'My Web Application',
+    'name' => 'Estrutura Curricular - UFSM',
     // preloading 'log' component
     'preload' => array('log'),
     // autoloading model and component classes
@@ -16,6 +16,8 @@ return array(
         'application.components.*',
         'ext.giix-components.*', // giix components
     ),
+    'sourceLanguage' => 'en_us',
+    'language' => 'pt',
     'modules' => array(
         // uncomment the following to enable the Gii tool
 
