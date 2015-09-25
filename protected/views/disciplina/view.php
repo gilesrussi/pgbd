@@ -18,7 +18,6 @@ $this->menu=array(
 
 <?php 
 $attributes = array(
-            'id',
             'codigo',
             'nome',
             'carga_horaria_total',
@@ -42,7 +41,7 @@ $this->widget('zii.widgets.CDetailView', array(
 	echo GxHtml::openTag('ul');
 	foreach($model->ppcHasTipoDisciplinaHasDisciplinas as $relatedModel) {
 		echo GxHtml::openTag('li');
-		echo GxHtml::link(GxHtml::encode($relatedModel->ppcHasTipoDisciplina->ppc . " - " . $relatedModel->ppcHasTipoDisciplina->tipoDisciplina), array('ppcHasTipoDisciplinaHasDisciplina/view', 'id' => GxActiveRecord::extractPkValue($relatedModel, true)));
+		echo GxHtml::link(GxHtml::encode($relatedModel->ppcHasTipoDisciplina->ppc . " - " . $relatedModel->ppcHasTipoDisciplina->tipoDisciplina . " (" . $relatedModel->situacaoCurriculo . ")"), array('ppcHasTipoDisciplinaHasDisciplina/view', 'id' => GxActiveRecord::extractPkValue($relatedModel, true)));
 		echo GxHtml::closeTag('li');
 	}
 	echo GxHtml::closeTag('ul');

@@ -32,9 +32,7 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 
 <?php echo GxHtml::link(Yii::t('app', 'Advanced Search'), '#', array('class' => 'search-button')); ?>
 <div class="search-form">
-<?php $this->renderPartial('_search', array(
-	'model' => $model,
-)); ?>
+
 </div><!-- search-form -->
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
@@ -46,7 +44,7 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 		array(
 				'name'=>'ppc_has_tipo_disciplina_id',
 				'value'=>'GxHtml::valueEx($data->ppcHasTipoDisciplina)',
-				'filter'=>GxHtml::listDataEx(PpcHasTipoDisciplina::model()->findAllAttributes(null, true)),
+				'filter'=>GxHtml::listDataEx(PpcHasTipoDisciplina::model()->findAll()),
 				),
 		array(
 				'name'=>'disciplina_id',

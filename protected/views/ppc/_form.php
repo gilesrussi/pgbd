@@ -12,6 +12,7 @@
 	</p>
 
 	<?php echo $form->errorSummary($model); ?>
+                <?php echo $form->hiddenField($model, 'curso_id'); ?>
 		<div class="row">
 		<?php echo $form->labelEx($model,'situacao_id'); ?>
 		<?php echo $form->dropDownList($model, 'situacao_id', GxHtml::listDataEx(Situacao::model()->findAllAttributes(null, true))); ?>
@@ -34,7 +35,7 @@
                     echo "<div class='row'>";
                     echo CHtml::label("Carga Horária " . $tipo->descricao, true);
                     $temp = PpcHasTipoDisciplina::model()->findByAttributes(array('ppc_id' => $model->id, 'tipo_disciplina_id' => $tipo->id));
-                    echo CHtml::textField("Disciplina[tipo_aula][$tipo->id]", isset($temp) ? $temp->carga_horaria_total_tipo_disciplina : '0');
+                    echo CHtml::textField("Disciplina[tipo_disciplina][$tipo->id]", isset($temp) ? $temp->carga_horaria_total_tipo_disciplina : '0');
                     echo "</div>";
                 }
                 ?>

@@ -14,13 +14,12 @@
 	<?php echo $form->errorSummary($model); ?>
 
 		<div class="row">
-		<?php echo $form->labelEx($model,'ppc_has_tipo_disciplina_id'); ?>
-		<?php echo $form->dropDownList($model, 'ppc_has_tipo_disciplina_id', GxHtml::listDataEx(PpcHasTipoDisciplina::model()->findAllAttributes(null, true))); ?>
-		<?php echo $form->error($model,'ppc_has_tipo_disciplina_id'); ?>
+                <?php echo $form->hiddenField($model, 'ppc_has_tipo_disciplina_id');
+		//<?php echo $form->dropDownList($model, 'ppc_has_tipo_disciplina_id', GxHtml::listDataEx(PpcHasTipoDisciplina::model()->findAllAttributes(null, true))); ?>
 		</div><!-- row -->
 		<div class="row">
 		<?php echo $form->labelEx($model,'disciplina_id'); ?>
-		<?php echo $form->dropDownList($model, 'disciplina_id', GxHtml::listDataEx(Disciplina::model()->findAllAttributes(null, true))); ?>
+		<?php echo $form->dropDownList($model, 'disciplina_id', GxHtml::listDataEx(Disciplina::model()->findAllAttributes(array('codigo', 'nome'), true), null, 'codigo_nome')); ?>
 		<?php echo $form->error($model,'disciplina_id'); ?>
 		</div><!-- row -->
 		<div class="row">

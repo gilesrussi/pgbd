@@ -19,26 +19,26 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data' => $model,
 	'attributes' => array(
-'id',
+
 array(
 			'name' => 'ppcHasTipoDisciplina',
 			'type' => 'raw',
-			'value' => $model->ppcHasTipoDisciplina !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->ppcHasTipoDisciplina)), array('ppcHasTipoDisciplina/view', 'id' => GxActiveRecord::extractPkValue($model->ppcHasTipoDisciplina, true))) : null,
+			'value' => $model->ppcHasTipoDisciplina !== null ? GxHtml::link(GxHtml::encode($model->ppcHasTipoDisciplina->ppc . ' - ' . GxHtml::valueEx($model->ppcHasTipoDisciplina)), array('ppcHasTipoDisciplina/view', 'id' => GxActiveRecord::extractPkValue($model->ppcHasTipoDisciplina, true))) : null,
 			),
 array(
 			'name' => 'disciplina',
 			'type' => 'raw',
-			'value' => $model->disciplina !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->disciplina)), array('disciplina/view', 'id' => GxActiveRecord::extractPkValue($model->disciplina, true))) : null,
+			'value' => $model->disciplina !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->disciplina) . ' - ' . $model->disciplina->nome), array('disciplina/view', 'id' => GxActiveRecord::extractPkValue($model->disciplina, true))) : null,
 			),
 array(
 			'name' => 'periodo',
 			'type' => 'raw',
-			'value' => $model->periodo !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->periodo)), array('periodo/view', 'id' => GxActiveRecord::extractPkValue($model->periodo, true))) : null,
+			'value' => $model->periodo !== null ? GxHtml::encode(GxHtml::valueEx($model->periodo)) : null,
 			),
 array(
 			'name' => 'situacaoCurriculo',
 			'type' => 'raw',
-			'value' => $model->situacaoCurriculo !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->situacaoCurriculo)), array('situacaoCurriculo/view', 'id' => GxActiveRecord::extractPkValue($model->situacaoCurriculo, true))) : null,
+			'value' => $model->situacaoCurriculo !== null ? GxHtml::encode(GxHtml::valueEx($model->situacaoCurriculo)) : null,
 			),
 	),
 )); ?>

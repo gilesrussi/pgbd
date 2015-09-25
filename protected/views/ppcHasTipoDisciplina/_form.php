@@ -29,9 +29,7 @@
 		<?php echo $form->error($model,'carga_horaria_total_tipo_disciplina'); ?>
 		</div><!-- row -->
 
-		<label><?php echo GxHtml::encode($model->getRelationLabel('ppcHasTipoDisciplinaHasDisciplinas')); ?></label>
-		<?php echo $form->checkBoxList($model, 'ppcHasTipoDisciplinaHasDisciplinas', GxHtml::encodeEx(GxHtml::listDataEx(PpcHasTipoDisciplinaHasDisciplina::model()->findAllAttributes(null, true)), false, true)); ?>
-
+		
 <?php
 echo GxHtml::submitButton(Yii::t('app', 'Save'));
 $this->endWidget();

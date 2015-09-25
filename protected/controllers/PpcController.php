@@ -14,11 +14,21 @@ class PpcController extends GxController
     public function actionAdd($id)
     {
         $model = new Ppc;
-
+        $model->curso_id = $id;
         if (isset($_POST['Ppc'])) {
+            $related = $_POST['Disciplina']['tipo_disciplina'];
             $model->setAttributes($_POST['Ppc']);
 
             if ($model->save()) {
+                foreach($related as $key => $value) {
+                    if(intval($value) != 0) {
+                        $relatedModel = new PpcHasTipoDisciplina;
+                        $relatedModel->tipo_disciplina_id = $key;
+                        $relatedModel->ppc_id = $model->id;
+                        $relatedModel->carga_horaria_total_tipo_disciplina = $value;
+                        $relatedModel->save();
+                    }
+                }
                 if (Yii::app()->getRequest()->getIsAjaxRequest())
                     Yii::app()->end();
                 else

@@ -11,10 +11,10 @@ class PpcHasTipoDisciplinaHasDisciplinaController extends GxController
         ));
     }
 
-    public function actionCreate()
+    public function actionCreate($id)
     {
         $model = new PpcHasTipoDisciplinaHasDisciplina;
-
+        $model->ppc_has_tipo_disciplina_id = $id;
 
         if (isset($_POST['PpcHasTipoDisciplinaHasDisciplina'])) {
             $model->setAttributes($_POST['PpcHasTipoDisciplinaHasDisciplina']);
