@@ -62,10 +62,10 @@ abstract class BasePpcHasTipoDisciplina extends GxActiveRecord {
 		return array(
 			'id' => Yii::t('app', 'ID'),
 			'ppc_id' => null,
-			'tipo_disciplina_id' => null,
-			'carga_horaria_total_tipo_disciplina' => Yii::t('app', 'Carga Horaria Total Tipo Disciplina'),
+			'tipo_disciplina_id' => Yii::t('app', 'Tipo de disciplina'),
+			'carga_horaria_total_tipo_disciplina' => Yii::t('app', 'Carga horária total desse tipo'),
 			'ppc' => null,
-			'tipoDisciplina' => null,
+			'tipoDisciplina' => Yii::t('app', 'Tipo de disciplina'),
 			'ppcHasTipoDisciplinaHasDisciplinas' => null,
 		);
 	}

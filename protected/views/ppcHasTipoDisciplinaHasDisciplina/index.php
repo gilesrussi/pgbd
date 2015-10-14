@@ -6,7 +6,6 @@ $this->breadcrumbs = array(
 );
 
 $this->menu = array(
-	array('label'=>Yii::t('app', 'Create') . ' ' . PpcHasTipoDisciplinaHasDisciplina::label(), 'url' => array('create')),
 	array('label'=>Yii::t('app', 'Manage') . ' ' . PpcHasTipoDisciplinaHasDisciplina::label(2), 'url' => array('admin')),
 );
 ?>

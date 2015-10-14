@@ -21,7 +21,7 @@ $this->menu=array(
 array(
 			'name' => 'ppc',
 			'type' => 'raw',
-			'value' => $model->ppc !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->ppc)), array('ppc/view', 'id' => GxActiveRecord::extractPkValue($model->ppc, true))) : null,
+			'value' => $model->ppc !== null ? GxHtml::link(GxHtml::encode($model->ppc->curso . ' - ' . GxHtml::valueEx($model->ppc)), array('ppc/view', 'id' => GxActiveRecord::extractPkValue($model->ppc, true))) : null,
 			),
 array(
 			'name' => 'tipoDisciplina',
@@ -32,7 +32,7 @@ array(
 	),
 )); ?>
 
-<h2><?php echo GxHtml::encode("Vinculadas como " . GxHtml::encode(GxHtml::valueEx($model)) . ' no PPC ' . $model->ppc); ?></h2>
+<h2><?php echo GxHtml::encode("Vinculadas como " . GxHtml::encode(GxHtml::valueEx($model)) . ' no PPC ' . $model->ppc . ' do curso ' . $model->ppc->curso); ?></h2>
 <?php
 	echo GxHtml::openTag('ul');
 	foreach($model->ppcHasTipoDisciplinaHasDisciplinas as $relatedModel) {

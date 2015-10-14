@@ -33,7 +33,6 @@
 				array('label'=>'Cursos', 'url'=>array('/curso')),
 				array('label'=>'PPCs', 'url'=>array('/ppc')),
 				array('label'=>'Disciplinas', 'url'=>array('/disciplina')),
-				array('label'=>'Home', 'url'=>array('/site/index')),
 
 			),
 		)); ?>

@@ -7,7 +7,7 @@ $this->breadcrumbs = array(
 
 $this->menu=array(
 	array('label'=>Yii::t('app', 'List') . ' ' . $model->label(2), 'url'=>array('index')),
-	array('label'=>Yii::t('app', 'Create') . ' ' . $model->label(), 'url'=>array('create')),
+	
 	array('label'=>Yii::t('app', 'Update') . ' ' . $model->label(), 'url'=>array('update', 'id' => $model->id)),
 	array('label'=>Yii::t('app', 'Delete') . ' ' . $model->label(), 'url'=>'#', 'linkOptions' => array('submit' => array('delete', 'id' => $model->id), 'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>Yii::t('app', 'Manage') . ' ' . $model->label(2), 'url'=>array('admin')),
@@ -23,7 +23,8 @@ $this->menu=array(
 array(
 			'name' => 'ppcHasTipoDisciplina',
 			'type' => 'raw',
-			'value' => $model->ppcHasTipoDisciplina !== null ? GxHtml::link(GxHtml::encode($model->ppcHasTipoDisciplina->ppc . ' - ' . GxHtml::valueEx($model->ppcHasTipoDisciplina)), array('ppcHasTipoDisciplina/view', 'id' => GxActiveRecord::extractPkValue($model->ppcHasTipoDisciplina, true))) : null,
+                        'label' => 'Pertence à',
+			'value' => $model->ppcHasTipoDisciplina !== null ? GxHtml::link(GxHtml::encode($model->ppcHasTipoDisciplina->ppc->curso . ' - ' . $model->ppcHasTipoDisciplina->ppc . ' - ' . GxHtml::valueEx($model->ppcHasTipoDisciplina)), array('ppcHasTipoDisciplina/view', 'id' => GxActiveRecord::extractPkValue($model->ppcHasTipoDisciplina, true))) : null,
 			),
 array(
 			'name' => 'disciplina',

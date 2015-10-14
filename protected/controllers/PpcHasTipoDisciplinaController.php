@@ -9,24 +9,6 @@ class PpcHasTipoDisciplinaController extends GxController {
 		));
 	}
 
-	public function actionCreate() {
-		$model = new PpcHasTipoDisciplina;
-
-
-		if (isset($_POST['PpcHasTipoDisciplina'])) {
-			$model->setAttributes($_POST['PpcHasTipoDisciplina']);
-
-			if ($model->save()) {
-				if (Yii::app()->getRequest()->getIsAjaxRequest())
-					Yii::app()->end();
-				else
-					$this->redirect(array('view', 'id' => $model->id));
-			}
-		}
-
-		$this->render('create', array( 'model' => $model));
-	}
-
 	public function actionUpdate($id) {
 		$model = $this->loadModel($id, 'PpcHasTipoDisciplina');
 

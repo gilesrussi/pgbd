@@ -15,12 +15,12 @@
 
 		<div class="row">
 		<?php echo $form->labelEx($model,'ppc_id'); ?>
-		<?php echo $form->dropDownList($model, 'ppc_id', GxHtml::listDataEx(Ppc::model()->findAllAttributes(null, true))); ?>
+		<?php echo $form->dropDownList($model, 'ppc_id', GxHtml::listDataEx(Ppc::model()->findAllAttributes(null, true)), array("disabled"=>"disabled" )); ?>
 		<?php echo $form->error($model,'ppc_id'); ?>
 		</div><!-- row -->
 		<div class="row">
 		<?php echo $form->labelEx($model,'tipo_disciplina_id'); ?>
-		<?php echo $form->dropDownList($model, 'tipo_disciplina_id', GxHtml::listDataEx(TipoDisciplina::model()->findAllAttributes(null, true))); ?>
+		<?php echo $form->dropDownList($model, 'tipo_disciplina_id', GxHtml::listDataEx(TipoDisciplina::model()->findAllAttributes(null, true)), array("disabled"=>"disabled" )); ?>
 		<?php echo $form->error($model,'tipo_disciplina_id'); ?>
 		</div><!-- row -->
 		<div class="row">

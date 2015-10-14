@@ -3,34 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppc/view.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BasePpc.php</file>
             <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppcHasTipoDisciplinaHasDisciplina/_form.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/disciplina/_form.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/yii-1.1.16.bca042/framework/web/widgets/CActiveForm.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BasePeriodo.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppcHasTipoDisciplinaHasDisciplina/admin.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppc/create.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/disciplina/view.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BaseTipoDisciplina.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/controllers/DisciplinaController.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppc/admin.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppcHasTipoDisciplina/_form.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/controllers/PpcHasTipoDisciplinaHasDisciplinaController.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BasePpcHasTipoDisciplina.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/disciplina/_view.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppc/index.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppcHasTipoDisciplina/view.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/extensions/giix-components/GxActiveForm.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BaseSituacaoCurriculo.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BasePpcHasTipoDisciplinaHasDisciplina.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppcHasTipoDisciplinaHasDisciplina/view.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BaseSituacao.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BaseTipoAulaHasDisciplina.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppc/_form.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppc/update.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BaseDisciplina.php</file>
-            <file>file:/C:/xampp/htdocs/pgbd/protected/models/_base/BaseCurso.php</file>
+            <file>file:/C:/xampp/htdocs/pgbd/protected/models/Disciplina.php</file>
+            <file>file:/C:/xampp/htdocs/pgbd/protected/extensions/giix-components/GxHtml.php</file>
+            <file>file:/C:/xampp/htdocs/pgbd/protected/views/ppcHasTipoDisciplinaHasDisciplina/_view.php</file>
         </group>
     </open-files>
 </project-private>

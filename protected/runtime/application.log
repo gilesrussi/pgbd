@@ -1400,3 +1400,105 @@ REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/17
 in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxHtml.php (147)
 in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxHtml.php (86)
 in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (22)
+2015/10/14 18:01:19 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pgbd`.`ppc_has_tipo_disciplina_has_disciplina`, CONSTRAINT `fk_ppt_has_tipo_disciplina_has_disciplina_ppt_has_tipo_discip1` FOREIGN KEY (`ppc_has_tipo_disciplina_id`) REFERENCES `ppc_has_tipo). A declaração SQL executada foi: DELETE FROM `ppc_has_tipo_disciplina` WHERE `ppc_has_tipo_disciplina`.`id`=17.
+in C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php (49)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/14 18:01:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pgbd`.`ppc_has_tipo_disciplina_has_disciplina`, CONSTRAINT `fk_ppt_has_tipo_disciplina_has_disciplina_ppt_has_tipo_discip1` FOREIGN KEY (`ppc_has_tipo_disciplina_id`) REFERENCES `ppc_has_tipo). The SQL statement executed was: DELETE FROM `ppc_has_tipo_disciplina` WHERE `ppc_has_tipo_disciplina`.`id`=17' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('17')
+#2 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php(49): CActiveRecord->delete()
+#3 [internal function]: PpcHasTipoDisciplinaController->actionDelete('17')
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaController), Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/delete/17
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/17
+---
+2015/10/14 19:14:43 [error] [exception.CException] exception 'CException' with message 'PpcHasTipoDisciplinaController não pôde encontrar a visualização "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php(27): CController->render('create', Array)
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaController->actionCreate()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/index
+---
+2015/10/14 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/index
+---
+2015/10/14 19:25:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/update/1
+---
+2015/10/14 19:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/update/1
+---
+2015/10/14 19:26:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/1
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/1
+---
+2015/10/14 19:26:27 [error] [exception.CException] exception 'CException' with message 'PpcHasTipoDisciplinaHasDisciplinaController não pôde encontrar a visualização "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#2 [internal function]: PpcHasTipoDisciplinaHasDisciplinaController->actionCreate('1')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaHasDisciplinaController), Array)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaHasDisciplinaController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/1
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/1
+---
