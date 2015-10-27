@@ -59,7 +59,10 @@ class DisciplinaController extends GxController
                         $relatedModel->carga_horaria = $value;
                         $relatedModel->save();
                     } else {
-                        TipoAulaHasDisciplina::model()->findByAttributes(array('disciplina_id' => $model->id, 'tipo_aula_id' => $key))->delete();
+                        $a = TipoAulaHasDisciplina::model()->findByAttributes(array('disciplina_id' => $model->id, 'tipo_aula_id' => $key));
+                        if($a) {
+                            $a->delete();
+                        }
                     }
                 }
                 $this->redirect(array('view', 'id' => $model->id));

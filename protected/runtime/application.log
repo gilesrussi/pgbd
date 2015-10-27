@@ -1502,3 +1502,54 @@ Stack trace:
 REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/1
 HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/1
 ---
+2015/10/27 17:44:07 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:44:20 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:45:03 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:45:08 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:45:14 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:45:57 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:03 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:10 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:26 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:44 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:52 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:48:02 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:48:08 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:48:13 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:48:23 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:49:45 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:49:49 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
