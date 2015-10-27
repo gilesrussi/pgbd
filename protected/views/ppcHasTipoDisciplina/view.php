@@ -17,6 +17,7 @@ $this->menu=array(
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data' => $model,
+        'nullDisplay' => '(Nulo)',
 	'attributes' => array(
 array(
 			'name' => 'ppc',

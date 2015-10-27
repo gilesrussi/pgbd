@@ -37,5 +37,6 @@ foreach($tipoDisciplinaPpc as $tad) {
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data' => $model,
+        'nullDisplay' => '(Nulo)',
 	'attributes' => $attributes,
 )); ?>

@@ -9,7 +9,7 @@ $this->menu = array(
 );
 ?>
 
-<h1><?php echo Yii::t('app', 'Add') . ' Disciplina em ' ; ?></h1>
+<h1><?php echo Yii::t('app', 'Add') . ' disciplina de ' . $model->ppcHasTipoDisciplina->ppc->curso . ', PPC: ' . $model->ppcHasTipoDisciplina->ppc . ' como ' . $model->ppcHasTipoDisciplina; ?></h1>
 
 <?php
 $this->renderPartial('_form', array(
