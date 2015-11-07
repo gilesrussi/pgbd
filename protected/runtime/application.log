@@ -1,0 +1,1558 @@
+2015/01/02 04:54:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usergroups".' in F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('usergroups')
+#1 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Programs\XAMPP\htdocs\newYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newYii/usergroups
+---
+2015/01/02 04:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usergroups".' in F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('usergroups')
+#1 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Programs\XAMPP\htdocs\newYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newYii/usergroups
+---
+2015/01/02 04:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserGroups".' in F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('UserGroups')
+#1 F:\Programs\XAMPP\htdocs\newYii\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Programs\XAMPP\htdocs\newYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newYii/UserGroups
+---
+2015/09/21 02:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "ppcs/create".' in F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppcs/create')
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pgbd/ppcs/create
+HTTP_REFERER=http://localhost/pgbd/curso/1
+---
+2015/09/21 03:03:12 [error] [php] Object of class CWebApplication could not be converted to string (F:\xampp\htdocs\pgbd\protected\views\ppc\create.php:14)
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcController->renderFile()
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): PpcController->renderPartial()
+#2 F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(30): PpcController->render()
+#3 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcController->actionCreate()
+#4 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): PpcController->runAction()
+#6 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): PpcController->runActionWithFilters()
+#7 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): PpcController->run()
+#8 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/ppc/create/1
+in F:\xampp\htdocs\pgbd\protected\views\ppc\create.php (14)
+in F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (30)
+in F:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 03:04:20 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `curso` `t`' at line 1. A declaração SQL executada foi: SELECT id,  FROM `curso` `t`.
+in F:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in F:\xampp\htdocs\pgbd\protected\views\ppc\_form.php (18)
+in F:\xampp\htdocs\pgbd\protected\views\ppc\create.php (19)
+2015/09/21 03:04:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `curso` `t`' at line 1. The SQL statement executed was: SELECT id,  FROM `curso` `t`' in F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 F:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 F:\xampp\htdocs\pgbd\protected\views\ppc\_form.php(18): GxActiveRecord->findAllAttributes(NULL, true)
+#5 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\\xampp\\htdocs...', Array, true)
+#7 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('F:\\xampp\\htdocs...', Array, true)
+#8 F:\xampp\htdocs\pgbd\protected\views\ppc\create.php(19): CController->renderPartial('_form', Array)
+#9 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\\xampp\\htdocs...', Array, true)
+#11 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('F:\\xampp\\htdocs...', Array, true)
+#12 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(30): CController->render('create', Array)
+#14 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcController->actionCreate()
+#15 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppc/create')
+#20 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 F:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppc/create/1
+HTTP_REFERER=http://localhost/pgbd/curso/1
+---
+2015/09/21 03:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "create" solicitada.' in F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('create')
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#2 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppc/create')
+#3 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pgbd/ppc/create/1
+HTTP_REFERER=http://localhost/pgbd/curso/1
+---
+2015/09/21 03:25:00 [error] [php] Illegal offset type (F:\xampp\htdocs\pgbd\protected\views\ppc\create.php:4)
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcController->renderFile()
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): PpcController->renderPartial()
+#2 F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(33): PpcController->render()
+#3 unknown(0): PpcController->actionAdd()
+#4 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): PpcController->runAction()
+#8 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): PpcController->runActionWithFilters()
+#9 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): PpcController->run()
+#10 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 F:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/ppc/add/1
+in F:\xampp\htdocs\pgbd\protected\views\ppc\create.php (4)
+in F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (33)
+in F:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 03:25:12 [error] [php] Illegal offset type (F:\xampp\htdocs\pgbd\protected\views\ppc\create.php:4)
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcController->renderFile()
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): PpcController->renderPartial()
+#2 F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(33): PpcController->render()
+#3 unknown(0): PpcController->actionAdd()
+#4 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): PpcController->runAction()
+#8 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): PpcController->runActionWithFilters()
+#9 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): PpcController->run()
+#10 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 F:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/ppc/add/1
+in F:\xampp\htdocs\pgbd\protected\views\ppc\create.php (4)
+in F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (33)
+in F:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 03:25:13 [error] [php] Illegal offset type (F:\xampp\htdocs\pgbd\protected\views\ppc\create.php:4)
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcController->renderFile()
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): PpcController->renderPartial()
+#2 F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(33): PpcController->render()
+#3 unknown(0): PpcController->actionAdd()
+#4 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): PpcController->runAction()
+#8 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): PpcController->runActionWithFilters()
+#9 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): PpcController->run()
+#10 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 F:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/ppc/add/1
+in F:\xampp\htdocs\pgbd\protected\views\ppc\create.php (4)
+in F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (33)
+in F:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 03:25:27 [error] [php] Illegal offset type (F:\xampp\htdocs\pgbd\protected\views\ppc\create.php:4)
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcController->renderFile()
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): PpcController->renderPartial()
+#2 F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(33): PpcController->render()
+#3 unknown(0): PpcController->actionAdd()
+#4 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): PpcController->runAction()
+#8 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): PpcController->runActionWithFilters()
+#9 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): PpcController->run()
+#10 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 F:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/ppc/add/1
+in F:\xampp\htdocs\pgbd\protected\views\ppc\create.php (4)
+in F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (33)
+in F:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 03:25:28 [error] [php] Illegal offset type (F:\xampp\htdocs\pgbd\protected\views\ppc\create.php:4)
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcController->renderFile()
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): PpcController->renderPartial()
+#2 F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(33): PpcController->render()
+#3 unknown(0): PpcController->actionAdd()
+#4 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): PpcController->runAction()
+#8 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): PpcController->runActionWithFilters()
+#9 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): PpcController->run()
+#10 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 F:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/ppc/add/1
+in F:\xampp\htdocs\pgbd\protected\views\ppc\create.php (4)
+in F:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (33)
+in F:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 03:57:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "pgbd/curso/view/id/1".' in F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('pgbd/curso/view...')
+#1 F:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pgbd/pgbd/curso/view/id/1
+HTTP_REFERER=http://localhost/pgbd/ppc/add/1
+---
+2015/09/21 17:21:23 [error] [exception.CException] exception 'CException' with message 'O alias "zii.widgets.CMenu" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWidgetFactory.php(146): YiiBase::import('zii.widgets.CMe...', true)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.CMe...', Array)
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CMe...', Array)
+#3 C:\xampp\htdocs\pgbd\protected\views\layouts\main.php(39): CBaseController->widget('zii.widgets.CMe...', Array)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(214): COutputProcessor->run()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\pgbd\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\pgbd\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/pgbd/
+---
+2015/09/21 17:21:28 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pgbd.ppc' doesn't exist. A declaração SQL executada foi: SHOW FULL COLUMNS FROM `ppc`.
+in C:\xampp\htdocs\pgbd\protected\views\ppc\index.php (19)
+in C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (70)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 17:21:28 [error] [exception.CDbException] exception 'CDbException' with message 'A tabela "ppc" da classe de active record "Ppc", não pôde ser encontrada no banco de dados.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Ppc))
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1606): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\pgbd\protected\views\ppc\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(70): CController->render('index', Array)
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcController->actionIndex()
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppc')
+#23 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pgbd/ppc
+HTTP_REFERER=http://localhost/pgbd/curso
+---
+2015/09/21 17:21:31 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pgbd.ppc' doesn't exist. A declaração SQL executada foi: SHOW FULL COLUMNS FROM `ppc`.
+in C:\xampp\htdocs\pgbd\protected\views\ppc\index.php (19)
+in C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (70)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 17:21:31 [error] [exception.CDbException] exception 'CDbException' with message 'A tabela "ppc" da classe de active record "Ppc", não pôde ser encontrada no banco de dados.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Ppc))
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1606): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\pgbd\protected\views\ppc\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(70): CController->render('index', Array)
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcController->actionIndex()
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppc')
+#23 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pgbd/ppc
+---
+2015/09/21 17:21:32 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pgbd.ppc' doesn't exist. A declaração SQL executada foi: SHOW FULL COLUMNS FROM `ppc`.
+in C:\xampp\htdocs\pgbd\protected\views\ppc\index.php (19)
+in C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (70)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 17:21:32 [error] [exception.CDbException] exception 'CDbException' with message 'A tabela "ppc" da classe de active record "Ppc", não pôde ser encontrada no banco de dados.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Ppc))
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1606): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\pgbd\protected\views\ppc\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(70): CController->render('index', Array)
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcController->actionIndex()
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppc')
+#23 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pgbd/ppc
+---
+2015/09/21 18:29:42 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (20)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:29:42 [error] [php] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php:21) (C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CHttpRequest.php:860)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(26): DisciplinaController->redirect()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/create
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (26)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:31:39 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (21)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:31:39 [error] [php] Undefined index: Prática (C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php:417)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/create
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (417)
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (370)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (22)
+2015/09/21 18:33:25 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (21)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:33:25 [error] [php] Undefined index: Prática (C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php:417)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/create
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (417)
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (370)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (22)
+2015/09/21 18:33:36 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (21)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:33:36 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php:417)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/create
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (417)
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (370)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (22)
+2015/09/21 18:42:00 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (21)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:42:59 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (21)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:42:59 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. A declaração SQL executada foi: INSERT INTO `tipo_aula_has_disciplina` (`id`, `disciplina_id`, `carga_horaria`, `tipo_aula_id`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (28)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:42:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tipo_aula_has_disciplina` (`id`, `disciplina_id`, `carga_horaria`, `tipo_aula_id`) VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(28): CActiveRecord->save()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('disciplina/crea...')
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pgbd/disciplina/create
+HTTP_REFERER=http://localhost/pgbd/disciplina/create
+---
+2015/09/21 18:44:08 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (21)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:44:08 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste' for key 'codigo_UNIQUE'. A declaração SQL executada foi: INSERT INTO `disciplina` (`codigo`, `nome`, `carga_horaria_total`) VALUES (:yp0, :yp1, :yp2).
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (22)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:44:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste' for key 'codigo_UNIQUE'. The SQL statement executed was: INSERT INTO `disciplina` (`codigo`, `nome`, `carga_horaria_total`) VALUES (:yp0, :yp1, :yp2)' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(22): CActiveRecord->save()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('disciplina/crea...')
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pgbd/disciplina/create
+HTTP_REFERER=http://localhost/pgbd/disciplina/create
+---
+2015/09/21 18:44:36 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (21)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 18:49:50 [error] [exception.CDbException] exception 'CDbException' with message 'A tabela "tipo_aula_has_disciplina" não possui uma coluna chamada "tipo_id".' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\schema\CDbCommandBuilder.php:697
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1523): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php(35): CActiveRecord->findByAttributes(Array)
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\pgbd\protected\views\disciplina\update.php(21): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#10 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(54): CController->render('update', Array)
+#11 [internal function]: DisciplinaController->actionUpdate('344')
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DisciplinaController), Array)
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DisciplinaController), Object(ReflectionMethod), Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('update')
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('disciplina/upda...')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/pgbd/disciplina/update/344
+HTTP_REFERER=http://localhost/pgbd/disciplina/344
+---
+2015/09/21 18:54:39 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#1 C:\xampp\htdocs\pgbd\protected\views\disciplina\create.php(19): DisciplinaController->renderPartial()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): DisciplinaController->renderInternal()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): DisciplinaController->renderPartial()
+#6 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(38): DisciplinaController->render()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/create
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php (35)
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\create.php (19)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (38)
+2015/09/21 18:54:51 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#1 C:\xampp\htdocs\pgbd\protected\views\disciplina\create.php(19): DisciplinaController->renderPartial()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): DisciplinaController->renderInternal()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): DisciplinaController->renderPartial()
+#6 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(38): DisciplinaController->render()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/create
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php (35)
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\create.php (19)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (38)
+2015/09/21 18:55:02 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#1 C:\xampp\htdocs\pgbd\protected\views\disciplina\create.php(19): DisciplinaController->renderPartial()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): DisciplinaController->renderInternal()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): DisciplinaController->renderPartial()
+#6 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(32): DisciplinaController->render()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/create
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php (35)
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\create.php (19)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (32)
+2015/09/21 18:55:05 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#1 C:\xampp\htdocs\pgbd\protected\views\disciplina\create.php(19): DisciplinaController->renderPartial()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): DisciplinaController->renderInternal()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): DisciplinaController->renderPartial()
+#6 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(38): DisciplinaController->render()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): DisciplinaController->actionCreate()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/create
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\_form.php (35)
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\create.php (19)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (38)
+2015/09/21 19:00:17 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 19:00:54 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 19:29:37 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pgbd\protected\views\disciplina\view.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): DisciplinaController->renderPartial()
+#2 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(11): DisciplinaController->render()
+#3 unknown(0): DisciplinaController->actionView()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/93
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\view.php (29)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (11)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 19:30:00 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pgbd\protected\views\disciplina\view.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): DisciplinaController->renderFile()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): DisciplinaController->renderPartial()
+#2 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(11): DisciplinaController->render()
+#3 unknown(0): DisciplinaController->actionView()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): DisciplinaController->runAction()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): DisciplinaController->runActionWithFilters()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): DisciplinaController->run()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/disciplina/93
+in C:\xampp\htdocs\pgbd\protected\views\disciplina\view.php (29)
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (11)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 21:22:30 [error] [exception.CException] exception 'CException' with message 'A propriedade "PpcHasTipoDisciplina.carga_horaria" não está definida.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(145): CComponent->__get('carga_horaria')
+#1 C:\xampp\htdocs\pgbd\protected\views\ppc\_form.php(37): CActiveRecord->__get('carga_horaria')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\pgbd\protected\views\ppc\update.php(21): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#10 C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(51): CController->render('update', Array)
+#11 [internal function]: PpcController->actionUpdate('4')
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcController), Array)
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcController), Object(ReflectionMethod), Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('update')
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppc/update')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/pgbd/ppc/update/4
+HTTP_REFERER=http://localhost/pgbd/ppc/4
+---
+2015/09/21 21:22:42 [error] [exception.CException] exception 'CException' with message 'A propriedade "PpcHasTipoDisciplina.carga_horaria_total" não está definida.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(145): CComponent->__get('carga_horaria_t...')
+#1 C:\xampp\htdocs\pgbd\protected\views\ppc\_form.php(37): CActiveRecord->__get('carga_horaria_t...')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\pgbd\protected\views\ppc\update.php(21): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#10 C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(51): CController->render('update', Array)
+#11 [internal function]: PpcController->actionUpdate('4')
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcController), Array)
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcController), Object(ReflectionMethod), Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('update')
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppc/update')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/pgbd/ppc/update/4
+HTTP_REFERER=http://localhost/pgbd/ppc/4
+---
+2015/09/21 21:25:44 [error] [php] Undefined variable: tipoAulaDisciplina (C:\xampp\htdocs\pgbd\protected\views\ppc\view.php:27)
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcController->renderFile()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): PpcController->renderPartial()
+#2 C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php(11): PpcController->render()
+#3 unknown(0): PpcController->actionView()
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): PpcController->runAction()
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): PpcController->runActionWithFilters()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): PpcController->run()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/ppc/4
+in C:\xampp\htdocs\pgbd\protected\views\ppc\view.php (27)
+in C:\xampp\htdocs\pgbd\protected\controllers\PpcController.php (11)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/09/21 21:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "ppchastipodisciplina/view".' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/view/1
+HTTP_REFERER=http://localhost/pgbd/ppc/4
+---
+2015/09/22 23:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "tipoDisciplina/view".' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('tipoDisciplina/...')
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pgbd/tipoDisciplina/2
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/17
+---
+2015/09/24 19:04:05 [error] [exception.CException] exception 'CException' with message 'A propriedade "PpcHasTipoDisciplina.situacao" não está definida.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(145): CComponent->__get('situacao')
+#1 C:\xampp\htdocs\pgbd\protected\views\disciplina\view.php(45): CActiveRecord->__get('situacao')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(11): CController->render('view', Array)
+#7 [internal function]: DisciplinaController->actionView('3')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DisciplinaController), Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DisciplinaController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('view')
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('disciplina/view')
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/pgbd/disciplina/3
+---
+2015/09/24 19:04:18 [error] [exception.CException] exception 'CException' with message 'A propriedade "PpcHasTipoDisciplina.situacaoCurriculo" não está definida.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(145): CComponent->__get('situacaoCurricu...')
+#1 C:\xampp\htdocs\pgbd\protected\views\disciplina\view.php(45): CActiveRecord->__get('situacaoCurricu...')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php(11): CController->render('view', Array)
+#7 [internal function]: DisciplinaController->actionView('3')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DisciplinaController), Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DisciplinaController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('view')
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('disciplina/view')
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/pgbd/disciplina/3
+---
+2015/09/24 19:41:13 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'disciplina' in 'field list'. A declaração SQL executada foi: SELECT id, disciplina FROM `ppc_has_tipo_disciplina_has_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\_form.php (33)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\create.php (19)
+2015/09/24 19:41:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'disciplina' in 'field list'. The SQL statement executed was: SELECT id, disciplina FROM `ppc_has_tipo_disciplina_has_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\_form.php(33): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\create.php(19): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php(27): CController->render('create', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/1
+---
+2015/09/24 19:41:30 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'disciplina' in 'field list'. A declaração SQL executada foi: SELECT id, disciplina FROM `ppc_has_tipo_disciplina_has_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\_form.php (33)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\update.php (21)
+2015/09/24 19:41:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'disciplina' in 'field list'. The SQL statement executed was: SELECT id, disciplina FROM `ppc_has_tipo_disciplina_has_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\_form.php(33): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\update.php(21): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php(44): CController->render('update', Array)
+#14 [internal function]: PpcHasTipoDisciplinaController->actionUpdate('1')
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaController), Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaController), Object(ReflectionMethod), Array)
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('update')
+#21 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#22 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/update/1
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/1
+---
+2015/09/24 20:09:09 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'disciplina' in 'field list'. A declaração SQL executada foi: SELECT id, disciplina FROM `ppc_has_tipo_disciplina_has_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\_form.php (33)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\update.php (21)
+2015/09/24 20:09:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'disciplina' in 'field list'. The SQL statement executed was: SELECT id, disciplina FROM `ppc_has_tipo_disciplina_has_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\_form.php(33): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplina\update.php(21): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php(44): CController->render('update', Array)
+#14 [internal function]: PpcHasTipoDisciplinaController->actionUpdate('18')
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaController), Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaController), Object(ReflectionMethod), Array)
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('update')
+#21 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#22 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/update/18
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/18
+---
+2015/09/24 20:11:06 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (18)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php (19)
+2015/09/24 20:11:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php(18): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php(19): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/18
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/18
+---
+2015/09/24 20:11:35 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (18)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php (19)
+2015/09/24 20:11:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php(18): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php(19): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/18
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/18
+---
+2015/09/24 20:11:36 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (18)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php (19)
+2015/09/24 20:11:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php(18): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php(19): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/18
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/18
+---
+2015/09/24 20:12:27 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (18)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php (19)
+2015/09/24 20:12:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php(18): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php(19): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+---
+2015/09/24 20:12:29 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (18)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php (19)
+2015/09/24 20:12:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php(18): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php(19): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+---
+2015/09/24 20:13:19 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (18)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php (19)
+2015/09/24 20:13:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php(18): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php(19): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+---
+2015/09/24 20:13:33 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (18)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php (19)
+2015/09/24 20:13:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php(18): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php(19): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+---
+2015/09/24 20:16:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+---
+2015/09/24 21:18:06 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php (15)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php (37)
+2015/09/24 21:18:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php(15): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php(37): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(80): CController->render('admin', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionAdmin()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/admin
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/512
+---
+2015/09/24 21:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxController.php:144
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(10): GxController->loadModel('512', 'PpcHasTipoDisci...')
+#1 [internal function]: PpcHasTipoDisciplinaHasDisciplinaController->actionView('512')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaHasDisciplinaController), Array)
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaHasDisciplinaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('view')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/512
+---
+2015/09/24 21:18:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxController.php:144
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(35): GxController->loadModel('512', 'PpcHasTipoDisci...')
+#1 [internal function]: PpcHasTipoDisciplinaHasDisciplinaController->actionUpdate('512')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaHasDisciplinaController), Array)
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaHasDisciplinaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('update')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/update/512
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/512
+---
+2015/09/24 21:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxController.php:144
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(10): GxController->loadModel('512', 'PpcHasTipoDisci...')
+#1 [internal function]: PpcHasTipoDisciplinaHasDisciplinaController->actionView('512')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaHasDisciplinaController), Array)
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaHasDisciplinaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('view')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/512
+---
+2015/09/24 21:19:20 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php (15)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php (37)
+2015/09/24 21:19:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php(15): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php(37): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(80): CController->render('admin', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionAdmin()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/admin
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/index
+---
+2015/09/24 21:20:18 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php (15)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php (37)
+2015/09/24 21:20:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php(15): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php(37): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(80): CController->render('admin', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionAdmin()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/admin
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/index
+---
+2015/09/24 21:20:22 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php (47)
+in C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php (80)
+2015/09/24 21:20:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php(47): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(80): CController->render('admin', Array)
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionAdmin()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('admin')
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/admin
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/index
+---
+2015/09/24 21:20:38 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php (15)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php (37)
+2015/09/24 21:20:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php(15): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php(37): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(80): CController->render('admin', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionAdmin()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/admin
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/index
+---
+2015/09/24 21:20:38 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php (15)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php (37)
+2015/09/24 21:20:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php(15): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php(37): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(80): CController->render('admin', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionAdmin()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/admin
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/index
+---
+2015/09/24 21:20:45 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php (15)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php (37)
+2015/09/24 21:20:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php(15): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php(37): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(80): CController->render('admin', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionAdmin()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/admin
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/index
+---
+2015/09/24 21:20:54 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. A declaração SQL executada foi: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`.
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php (248)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php (15)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php (37)
+2015/09/24 21:20:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipoDisciplina' in 'field list'. The SQL statement executed was: SELECT id, tipoDisciplina FROM `ppc_has_tipo_disciplina` `t`' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxActiveRecord.php(248): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_search.php(15): GxActiveRecord->findAllAttributes(NULL, true)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\admin.php(37): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(80): CController->render('admin', Array)
+#14 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaHasDisciplinaController->actionAdmin()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/admin
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/index
+---
+2015/09/25 18:09:22 [error] [php] include(codigo.php): failed to open stream: No such file or directory (C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\helpers\CHtml.php(2340): call_user_func()
+#2 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxHtml.php(147): value()
+#3 C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxHtml.php(86): valueEx()
+#4 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php(22): listDataEx()
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require()
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): PpcHasTipoDisciplinaHasDisciplinaController->renderInternal()
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcHasTipoDisciplinaHasDisciplinaController->renderFile()
+#8 C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\create.php(19): PpcHasTipoDisciplinaHasDisciplinaController->renderPartial()
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(126): require()
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CBaseController.php(95): PpcHasTipoDisciplinaHasDisciplinaController->renderInternal()
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(869): PpcHasTipoDisciplinaHasDisciplinaController->renderFile()
+#12 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): PpcHasTipoDisciplinaHasDisciplinaController->renderPartial()
+#13 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): PpcHasTipoDisciplinaHasDisciplinaController->render()
+#14 unknown(0): PpcHasTipoDisciplinaHasDisciplinaController->actionCreate()
+#15 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#16 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#17 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): PpcHasTipoDisciplinaHasDisciplinaController->runAction()
+#19 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): PpcHasTipoDisciplinaHasDisciplinaController->runActionWithFilters()
+#20 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): PpcHasTipoDisciplinaHasDisciplinaController->run()
+#21 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\pgbd\index.php(13): CWebApplication->run()
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/17
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxHtml.php (147)
+in C:\xampp\htdocs\pgbd\protected\extensions\giix-components\GxHtml.php (86)
+in C:\xampp\htdocs\pgbd\protected\views\ppcHasTipoDisciplinaHasDisciplina\_form.php (22)
+2015/10/14 18:01:19 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pgbd`.`ppc_has_tipo_disciplina_has_disciplina`, CONSTRAINT `fk_ppt_has_tipo_disciplina_has_disciplina_ppt_has_tipo_discip1` FOREIGN KEY (`ppc_has_tipo_disciplina_id`) REFERENCES `ppc_has_tipo). A declaração SQL executada foi: DELETE FROM `ppc_has_tipo_disciplina` WHERE `ppc_has_tipo_disciplina`.`id`=17.
+in C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php (49)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/14 18:01:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pgbd`.`ppc_has_tipo_disciplina_has_disciplina`, CONSTRAINT `fk_ppt_has_tipo_disciplina_has_disciplina_ppt_has_tipo_discip1` FOREIGN KEY (`ppc_has_tipo_disciplina_id`) REFERENCES `ppc_has_tipo). The SQL statement executed was: DELETE FROM `ppc_has_tipo_disciplina` WHERE `ppc_has_tipo_disciplina`.`id`=17' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('17')
+#2 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php(49): CActiveRecord->delete()
+#3 [internal function]: PpcHasTipoDisciplinaController->actionDelete('17')
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaController), Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#11 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/delete/17
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/17
+---
+2015/10/14 19:14:43 [error] [exception.CException] exception 'CException' with message 'PpcHasTipoDisciplinaController não pôde encontrar a visualização "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaController.php(27): CController->render('create', Array)
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): PpcHasTipoDisciplinaController->actionCreate()
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/index
+---
+2015/10/14 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/index
+---
+2015/10/14 19:25:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/update/1
+---
+2015/10/14 19:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplinahasdisciplina/update/1
+---
+2015/10/14 19:26:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/1
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/1
+---
+2015/10/14 19:26:27 [error] [exception.CException] exception 'CException' with message 'PpcHasTipoDisciplinaHasDisciplinaController não pôde encontrar a visualização "create" solicitada.' in C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\pgbd\protected\controllers\PpcHasTipoDisciplinaHasDisciplinaController.php(30): CController->render('create', Array)
+#2 [internal function]: PpcHasTipoDisciplinaHasDisciplinaController->actionCreate('1')
+#3 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(PpcHasTipoDisciplinaHasDisciplinaController), Array)
+#4 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PpcHasTipoDisciplinaHasDisciplinaController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('create')
+#9 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('ppchastipodisci...')
+#10 C:\xampp\htdocs\pgbd\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\pgbd\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/pgbd/ppchastipodisciplinahasdisciplina/create/1
+HTTP_REFERER=http://localhost/pgbd/ppchastipodisciplina/view/1
+---
+2015/10/27 17:44:07 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:44:20 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:45:03 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:45:08 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:45:14 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:45:57 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:03 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:10 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:26 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:44 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:46:52 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:48:02 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:48:08 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:48:13 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:48:23 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:49:45 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/27 17:49:49 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in C:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (48)
+in C:\xampp\htdocs\pgbd\index.php (13)
+2015/10/28 12:04:38 [warning] [application] Failed to set unsafe attribute "tipo_aula" of "Disciplina".
+in F:\xampp\htdocs\pgbd\protected\controllers\DisciplinaController.php (21)
+in F:\xampp\htdocs\pgbd\index.php (13)
