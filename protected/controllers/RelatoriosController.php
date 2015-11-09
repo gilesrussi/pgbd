@@ -42,20 +42,7 @@ class RelatoriosController extends GxController
         GROUP BY d.id
         ORDER BY COUNT(c.id)');
         */
-        $command = Yii::app()->db->createCommand()
-            ->select('d.nome, COUNT(c.id), d.id')
-            ->from('disciplina d')
-            ->join('ppc_has_tipo_disciplina_has_disciplina pdd', 'pdd.disciplina_id = d.id')
-            ->join('ppc_has_tipo_disciplina ptd', 'ptd.id = pdd.ppc_has_tipo_disciplina_id')
-            ->join('ppc p', 'p.id = ptd.ppc_id')
-            ->join('curso c', 'c.id = p.curso_id')
-            ->join('situacao s', 's.id = p.situacao_id')
-            ->where('s.descricao = "ATIVO"')
-            ->group('d.id')
-            ->order('COUNT(c.id)')
-            ->queryAll();
         $this->render('relatorio5', array(
-            'dataProvider' => $command,
         ));
     }
 
@@ -110,5 +97,9 @@ class RelatoriosController extends GxController
         foreach($dataProvider as $curso) {
             echo $curso['nome'];
         }
+    }
+
+    public function actionRelatorio6() {
+        $this->render('relatorio6');
     }
 }

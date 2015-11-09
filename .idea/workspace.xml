@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcaf975-8ac5-4ecd-8057-1bca2a1d9001" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/relatorios/_relatorio5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/relatorios/relatorio5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/relatorios/relatorio6.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/RelatoriosController.php" afterPath="$PROJECT_DIR$/protected/controllers/RelatoriosController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/relatorios/relatorio6.php" afterPath="$PROJECT_DIR$/protected/views/relatorios/relatorio6.php" />
     </list>
     <ignored path="pgbd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,24 +48,12 @@
       <file leaf-file-name="RelatoriosController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/RelatoriosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.68">
-              <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+            <state vertical-scroll-proportion="-24.72">
+              <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
               <folding>
-                <marker date="1447027129128" expanded="true" signature="871:929" placeholder="SELECT d.nom..disciplina..." />
-                <marker date="1447027129128" expanded="true" signature="871:1400" placeholder="SELECT d.nom..disciplina..." />
-                <marker date="1447027129128" expanded="true" signature="871:1402" placeholder="SELECT d.nom..disciplina..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relatorio5.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/relatorios/relatorio5.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.48">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-              <folding>
-                <marker date="1447028317532" expanded="true" signature="1289:1296" placeholder="..." />
+                <marker date="1447034182528" expanded="true" signature="871:929" placeholder="SELECT d.nom..disciplina..." />
+                <marker date="1447034182528" expanded="true" signature="871:1400" placeholder="SELECT d.nom..disciplina..." />
+                <marker date="1447034182528" expanded="true" signature="871:1402" placeholder="SELECT d.nom..disciplina..." />
               </folding>
             </state>
           </provider>
@@ -95,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48687664">
+            <state vertical-scroll-proportion="-14.84">
               <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding />
             </state>
@@ -115,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="relatorio6.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="relatorio6.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/relatorios/relatorio6.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.56692916">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -164,9 +148,9 @@
         <option value="$PROJECT_DIR$/protected/views/ppc/view.php" />
         <option value="$PROJECT_DIR$/protected/controllers/DisciplinaController.php" />
         <option value="$PROJECT_DIR$/protected/views/relatorios/_relatorio5.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/RelatoriosController.php" />
-        <option value="$PROJECT_DIR$/protected/views/relatorios/relatorio6.php" />
         <option value="$PROJECT_DIR$/protected/views/relatorios/relatorio5.php" />
+        <option value="$PROJECT_DIR$/protected/views/relatorios/relatorio6.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/RelatoriosController.php" />
       </list>
     </option>
   </component>
@@ -800,41 +784,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/RelatoriosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.68">
-          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
-          <folding>
-            <marker date="1447027129128" expanded="true" signature="871:929" placeholder="SELECT d.nom..disciplina..." />
-            <marker date="1447027129128" expanded="true" signature="871:1400" placeholder="SELECT d.nom..disciplina..." />
-            <marker date="1447027129128" expanded="true" signature="871:1402" placeholder="SELECT d.nom..disciplina..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/ppcHasTipoDisciplina/_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.88">
           <caret line="17" column="69" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="120" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/relatorios/relatorio6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/relatorios/relatorio5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.48">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <marker date="1447028317532" expanded="true" signature="1289:1296" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,8 +810,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48687664">
+        <state vertical-scroll-proportion="-14.84">
           <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/relatorios/relatorio5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5879265">
+          <caret line="28" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1447028317532" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/RelatoriosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.72">
+          <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
+          <folding>
+            <marker date="1447034182528" expanded="true" signature="871:929" placeholder="SELECT d.nom..disciplina..." />
+            <marker date="1447034182528" expanded="true" signature="871:1400" placeholder="SELECT d.nom..disciplina..." />
+            <marker date="1447034182528" expanded="true" signature="871:1402" placeholder="SELECT d.nom..disciplina..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/relatorios/relatorio6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56692916">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding />
         </state>
       </provider>
