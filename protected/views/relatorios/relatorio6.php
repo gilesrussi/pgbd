@@ -2,14 +2,27 @@
 
 <script type="text/javascript">
     function atualizaResposta() {
-        var valor = $('#filtro').find(":selected").val();
+        var valor_versao = $('#filtro_versao').find(":selected").val();
+        var valor_curso = $('#filtro_curso').find(":selected").val();
         $.ajax({
             url: '<?php echo $this->createUrl('relatorio6nivel1'); ?>',
             data: {
-                id: valor,
+                id: valor_versao,
+                curso_id: valor_curso,
             }
         }).done(function(html) {
             $('.resposta').html(html);
+        });
+    }
+    function getPpcs() {
+        var valor_curso = $('#filtro_curso').find(":selected").val();
+        $.ajax({
+            url: '<?php echo $this->createUrl('ppcporcurso'); ?>',
+            data: {
+                id: valor_curso,
+            }
+        }).done(function(html) {
+            $('#filtro_versao').html(html);
         });
     }
 </script>
@@ -25,7 +38,8 @@ $this->breadcrumbs = array(
 <?php
 echo CHtml::link('<h3>Voltar</h3>', $this->createUrl('index'));
 echo "<br>";
-echo "Filtro: " . CHtml::dropDownList('filtro', 'oi', array(-1 => 'TODOS') + GxHtml::listDataEx(TipoDisciplina::model()->findAllAttributes(null, true)));
+echo "Curso: " . CHtml::dropDownList('filtro_curso', '', array(''=>'') + GxHtml::listDataEx(Curso::model()->findAllAttributes(null, true)), array('onchange' => 'getPpcs()'));
+echo "Versão: " . CHtml::dropDownList('filtro_versao', '', array());
 echo "<br>";
 echo CHtml::button('Buscar', array('onClick' => 'atualizaResposta()'));
 echo "<br>";
