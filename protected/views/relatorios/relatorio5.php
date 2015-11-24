@@ -36,7 +36,7 @@ $this->breadcrumbs = array(
 <?php
 echo CHtml::link('<h3>Voltar</h3>', $this->createUrl('index'));
 echo "<br>";
-echo "Filtro: " . CHtml::dropDownList('filtro', 'oi', array(-1 => 'TODOS') + GxHtml::listDataEx(TipoDisciplina::model()->findAllAttributes(null, true)));
+echo "Tipo de Disciplina: " . CHtml::dropDownList('filtro', 'oi', array(-1 => 'TODOS') + GxHtml::listDataEx(TipoDisciplina::model()->findAllAttributes(null, true)));
 echo "<br>";
 echo CHtml::button('Buscar', array('onClick' => 'atualizaResposta()'));
 echo "<br>";

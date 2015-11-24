@@ -102,4 +102,122 @@ class RelatoriosController extends GxController
     public function actionRelatorio6() {
         $this->render('relatorio6');
     }
+    
+    public function actionRelatorio4() {
+        $this->render('relatorio4');
+    }
+    
+    public function actionRelatorio4Nivel1($id) {
+        $dataProvider = Yii::app()->db->createCommand("SELECT c.nome, p.numero FROM curso c
+       INNER JOIN ppc p
+             ON p.curso_id = c.id
+       INNER JOIN ppc_has_tipo_disciplina ptd
+             ON p.id = ptd.ppc_id
+       INNER JOIN ppc_has_tipo_disciplina_has_disciplina pdd
+             ON pdd.ppc_has_tipo_disciplina_id = ptd.id
+       WHERE pdd.disciplina_id = $id
+	   ORDER BY p.numero;")->queryAll();
+        foreach($dataProvider as $row) {
+            echo "Curso: " . $row['nome'] . " -> " . "Versão: " . $row['numero'] . "<br>"; 
+        }
+    }
+    
+    public function actionRelatorio3() {
+        $this->render('relatorio3');
+    }
+    
+    public function actionRelatorio3Nivel1($id, $tipo) {
+        $dataProvider = Yii::app()->db->createCommand("SELECT c.nome as nome_curso, p.numero, d.nome as nome_disciplina, d.carga_horaria_total FROM curso c
+       INNER JOIN ppc p
+             ON p.curso_id = c.id
+       INNER JOIN ppc_has_tipo_disciplina ptd
+             ON p.id = ptd.ppc_id
+       INNER JOIN ppc_has_tipo_disciplina_has_disciplina pdd
+             ON pdd.ppc_has_tipo_disciplina_id = ptd.id
+       INNER JOIN disciplina d
+             ON d.id = pdd.disciplina_id
+       WHERE c.id = $id AND 
+             d.carga_horaria_total = (
+             SELECT $tipo(d.carga_horaria_total) FROM disciplina d
+                    INNER JOIN ppc_has_tipo_disciplina_has_disciplina pdd
+                          ON pdd.disciplina_id = d.id
+                    INNER JOIN ppc_has_tipo_disciplina ptd
+                          ON ptd.id = pdd.ppc_has_tipo_disciplina_id
+                    INNER JOIN ppc
+                          ON ppc.id = ptd.ppc_id
+                    WHERE ppc.id = p.id
+       )
+       GROUP BY p.id, d.id;")->queryAll();
+        foreach($dataProvider as $row) {
+            echo "Versão: " . $row['numero'] . " -> Disciplina: " . $row['nome_disciplina'] . " (CH:" . $row['carga_horaria_total'] . ")<br>";
+        }
+    }
+    
+    public function actionRelatorio6Nivel1($id, $curso_id) {
+        /*
+         * SELECT d.nome, d.carga_horaria_total FROM disciplina d
+       INNER JOIN ppc_has_tipo_disciplina_has_disciplina pdd
+             ON pdd.disciplina_id = d.id
+       INNER JOIN ppc_has_tipo_disciplina ptd
+             ON ptd.id = pdd.ppc_has_tipo_disciplina_id
+       INNER JOIN ppc
+             ON ppc.id = ptd.ppc_id
+       INNER JOIN curso c
+             ON c.id = ppc.curso_id
+       INNER JOIN situacao s
+             ON ppc.situacao_id = s.id
+       WHERE ppc.id = 5 AND
+             d.id NOT IN (
+                  SELECT d.id FROM disciplina d
+                         INNER JOIN ppc_has_tipo_disciplina_has_disciplina pdd
+                               ON pdd.disciplina_id = d.id
+                         INNER JOIN ppc_has_tipo_disciplina ptd
+                               ON ptd.id = pdd.ppc_has_tipo_disciplina_id
+                         INNER JOIN ppc
+                               ON ppc.id = ptd.ppc_id
+                         INNER JOIN curso c
+                               ON c.id = ppc.curso_id
+                         INNER JOIN situacao s
+                               ON ppc.situacao_id = s.id
+                         WHERE s.descricao = "ATIVO"
+             )
+         */
+        $dataProvider = Yii::app()->db->createCommand("SELECT d.nome, d.carga_horaria_total FROM disciplina d
+       INNER JOIN ppc_has_tipo_disciplina_has_disciplina pdd
+             ON pdd.disciplina_id = d.id
+       INNER JOIN ppc_has_tipo_disciplina ptd
+             ON ptd.id = pdd.ppc_has_tipo_disciplina_id
+       INNER JOIN ppc
+             ON ppc.id = ptd.ppc_id
+       INNER JOIN curso c
+             ON c.id = ppc.curso_id
+       INNER JOIN situacao s
+             ON ppc.situacao_id = s.id
+       WHERE ppc.id = $id AND 
+             c.id = $curso_id AND
+             d.id NOT IN (
+                  SELECT d.id FROM disciplina d
+                         INNER JOIN ppc_has_tipo_disciplina_has_disciplina pdd
+                               ON pdd.disciplina_id = d.id
+                         INNER JOIN ppc_has_tipo_disciplina ptd
+                               ON ptd.id = pdd.ppc_has_tipo_disciplina_id
+                         INNER JOIN ppc
+                               ON ppc.id = ptd.ppc_id
+                         INNER JOIN curso c
+                               ON c.id = ppc.curso_id
+                         INNER JOIN situacao s
+                               ON ppc.situacao_id = s.id
+                         WHERE s.descricao = \"ATIVO\" AND c.id = $curso_id
+             )")->queryAll();
+        foreach($dataProvider as $row) {
+            echo $row['nome'] . " -> " . $row['carga_horaria_total'] . "<br>";
+        }
+    }
+    
+    public function actionPpcPorCurso($id) {
+        $curso = Curso::model()->findByPk($id);
+        foreach($curso->ppcs as $ppc) {
+            echo CHtml::tag('option', array('value' => $ppc->id), CHtml::encode($ppc->numero), true);
+        }
+    }
 }
